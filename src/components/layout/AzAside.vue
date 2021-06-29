@@ -10,7 +10,7 @@
         floating
     >
         <slot></slot>
-
+        <slot name="banner"></slot>
         <div :class="{ 'arrow-opened': !asideClosed, 'arrow-closed': asideClosed }" class="no-mobile" @click="toogle()">
             <v-btn icon text>
                 <v-icon color="rgba(255, 255, 255, .3)"

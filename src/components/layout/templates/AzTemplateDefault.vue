@@ -14,6 +14,9 @@
                     <az-menu />
                 </div>
             </div>
+            <template v-slot:banner>
+              <slot name="bannerAside"></slot>
+            </template>
         </az-aside>
 
         <v-app-bar app height="60" class="toolbar">
